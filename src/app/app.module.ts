@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RaceComponent } from './race/race.component';
 import { FinalPageComponent } from './final-page/final-page.component';
+import { SuccessMockComponent } from './success-mock/success-mock.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
     HomeComponent,
     RaceComponent,
-    FinalPageComponent
+    FinalPageComponent,
+    SuccessMockComponent
   ],
   imports: [
     BrowserModule,
