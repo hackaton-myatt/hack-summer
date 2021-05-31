@@ -9,8 +9,7 @@ import { SuccessMockComponent } from './success-mock/success-mock.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'race', component: RaceComponent},
-  {path: 'final-page', component: FinalPageComponent},
-  {path: 'success', component: SuccessMockComponent}
+  {path: 'success', component: FinalPageComponent},
 ];
 
 @NgModule({
