@@ -1,0 +1,45 @@
+.race-text{
+    font-size: 200%;
+    color: white;
+}
+.game-kind {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 20%;
+    height: 200px;
+}
+.distance{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+.my-distance{
+    font-size: 200%;
+    margin-right: 5px;
+}
+.opponent-distance{
+    font-size: 200%;
+    margin-left: 5px;
+}
+.map-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    width: 60%;
+    height: 400px;
+    margin: 30px;
+}
+.board{
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    color: black;
+    background-color: white;
+}
