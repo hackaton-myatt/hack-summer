@@ -1,11 +1,13 @@
+@import './flex.scss';
+
 .background{
     background-color: black;
 }
 .header{
+    @include flex();
     background-color: #000;
     height: 60px;
     padding: 10px;
-    text-align: center;
     .logo{
   
       max-width: 100%;
