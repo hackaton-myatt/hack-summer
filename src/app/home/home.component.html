@@ -1,13 +1,8 @@
-<div class="header">
-  <img class="logo" src="/assets/att.png">
-  <img class="myatt" src="./assets/ATT_Logo.webp" />
+<div class="alert" [ngClass]="{'on': isAlertOpen == true }">
+  <div class="alert-notification">
+    <h3>Join The Race</h3>
 
-  <div class="alert" [ngClass]="{'on': isAlertOpen == true }">
-    <div class="alert-notification">
-      <h3>Join The Race</h3>
-
-      <a routerLink="race">Join The race</a>
-      <button (click)="closeAlert()">Next Time</button>
-    </div>
+    <a routerLink="race">Join The race</a>
+    <button (click)="closeAlert()">Next Time</button>
   </div>
 </div>
