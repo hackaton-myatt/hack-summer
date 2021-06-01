@@ -1,8 +1,16 @@
+<div class="iphone-back">
+  <img src="../../assets/background.jpg">
+</div>
 <div class="alert" [ngClass]="{'on': isAlertOpen == true }">
   <div class="alert-notification">
-    <h3>Special Risky Offer</h3>
-
-    <a routerLink="offer">I will take the risk</a>
-    <a (click)="closeAlert()">Next Time</a>
+    <div class="header">
+      <img src="../../assets/att.png"/>
+      <h3>My AT&T</h3>
+    </div>
+    <div class="content">
+      <a routerLink="offer">
+        The new device you were looking for could be yours in few minutes, would you take the challenge?
+      </a>
+    </div>
   </div>
 </div>
