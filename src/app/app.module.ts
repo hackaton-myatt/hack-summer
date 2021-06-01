@@ -7,6 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { RaceComponent } from './race/race.component';
 import { FinalPageComponent } from './final-page/final-page.component';
 import { SuccessMockComponent } from './success-mock/success-mock.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { OfferComponent } from './offer/offer.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +18,14 @@ import { SuccessMockComponent } from './success-mock/success-mock.component';
     HomeComponent,
     RaceComponent,
     FinalPageComponent,
-    SuccessMockComponent
+    SuccessMockComponent,
+    OfferComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
