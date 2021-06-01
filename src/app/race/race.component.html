@@ -5,18 +5,20 @@
     </div>
     <img src="/assets/images/running-gif.gif" />
 </div>
-<div class="distance">
-    <div class="my-distance">
-        You
-        <div class=board> {{myDistance}} Meter</div>
+<div class-="super-container">
+    <div class="distance-container">
+        <div class="distance">
+            You
+            <div class=board> {{myDistance}} Meter</div>
+        </div>
+        <div class="distance">
+            Opponent
+            <div class=board> {{opponentDistance}} Meter </div>
+        </div>
+    
     </div>
-    <div class="opponent-distance">
-        Opponent
-        <div class=board> {{opponentDistance}} Meter </div>
+    
+    <div class="map-wrapper">
+        <div class="map" #map></div>
     </div>
-
-</div>
-
-<div class="map-wrapper">
-    <div class="map" #map></div>
 </div>
