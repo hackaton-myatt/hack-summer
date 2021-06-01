@@ -42,6 +42,7 @@ export class RaceComponent implements OnInit, AfterContentInit{
         this.map = new google.maps.Map(this.mapElement.nativeElement, {
             center: this.storePosition,
             zoom: 16,
+            disableDefaultUI: true,
             styles: [
                 { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
                 { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
