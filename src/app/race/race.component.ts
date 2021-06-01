@@ -146,7 +146,7 @@ export class RaceComponent implements OnInit, AfterContentInit{
 
                 
             }
-        },1500)
+        },3000)
         
     }
    private _randomNumber(){
